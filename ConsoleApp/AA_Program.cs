@@ -7,7 +7,7 @@ using System.Collections;
 
 namespace ConsoleApp
 {
-    class aProgram
+    class AA_Program
     {
         delegate int dlgt(int a, int b);
         //static void Main(string[] args)

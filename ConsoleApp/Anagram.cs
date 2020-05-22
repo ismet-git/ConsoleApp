@@ -8,17 +8,17 @@ namespace ConsoleApp
 {
     public class Anagram
     {
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
 
-            string s = "moon";
-            string t = "nnoo";
-            bool b = isAnagram2(s, t);
-            Console.WriteLine(b);
+        //    string s = "moon";
+        //    string t = "nnoo";
+        //    bool b = isAnagram(s, t);
+        //    Console.WriteLine(b);
 
-            Console.ReadKey();
+        //    Console.ReadKey();
 
-        }
+        //}
 
         // 
         static bool isAnagram(string s, string t)
@@ -55,5 +55,26 @@ namespace ConsoleApp
             }
             return true; // loop finished successfully. they are anagram
         }
+
+
+        static bool isAnagram3(string a, string b)
+        {            
+            if (a.Length != b.Length) return false;
+
+            // order letters alphabetically in words then compare strings
+            char[] ca = a.ToCharArray();
+            char[] cb = b.ToCharArray();
+            Array.Sort(ca);
+            Array.Sort(cb);
+            a = new string(ca);
+            b = new string(cb);
+                       
+            if (a == b)
+            {
+                return true;
+            }
+            return false; // loop finished successfully. they are anagram
+        }
+
     }
 }

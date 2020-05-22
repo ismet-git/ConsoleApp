@@ -43,32 +43,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlienDictionary.cs" />
     <Compile Include="Anagram.cs" />
     <Compile Include="ArrayRotation.cs" />
+    <Compile Include="BinaryTreeLevelAverage.cs" />
     <Compile Include="BirthDeath.cs" />
     <Compile Include="Code.cs" />
     <Compile Include="Code2.cs" />
     <Compile Include="Code2z.cs" />
+    <Compile Include="DecodeWays.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="Graph.cs" />
     <Compile Include="Heap2.cs" />
     <Compile Include="Heap3.cs" />
     <Compile Include="HeapHackerRankEditorial.cs" />
     <Compile Include="HeapMin.cs" />
+    <Compile Include="LabelPartition.cs" />
     <Compile Include="LinkedLists.cs" />
     <Compile Include="MiniHeap.cs" />
     <Compile Include="NodeChains.cs" />
-    <Compile Include="aProgram.cs" />
+    <Compile Include="AA_Program.cs" />
     <Compile Include="Dijkstra.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueueDS.cs" />
     <Compile Include="SinglyLinkedList.cs" />
     <Compile Include="SpiralMatrix.cs" />
     <Compile Include="StackDS.cs" />
+    <Compile Include="StockMaxProfit.cs" />
     <Compile Include="TopKFrequentClass.cs" />
     <Compile Include="TopNToys2.cs" />
     <Compile Include="TopNToys.cs" />
     <Compile Include="Trees.cs" />
+    <Compile Include="ValidParenthese.cs" />
     <Compile Include="zzz.cs" />
   </ItemGroup>
   <ItemGroup>
