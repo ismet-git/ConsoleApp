@@ -8,16 +8,16 @@ namespace ConsoleApp
 {
     class DecodeWays
     {
-        static void Main(string[] args)
-        {
-            // "12" = A, AB
-            DecodeWays w = new DecodeWays();
-            string s = "213"; // 2213 (5), 2277 (2) // 226 (3) // 213 = 2, 1, 3, 21, 13, 
-            int m = w.NumDecodings2(s);
-            Console.WriteLine("String : " + s);
-            Console.WriteLine("Decode Ways: " + m);
-            Console.ReadKey();
-        }
+        //static void Main(string[] args)
+        //{
+        //    // "12" = A, AB
+        //    DecodeWays w = new DecodeWays();
+        //    string s = "213"; // 2213 (5), 2277 (2) // 226 (3) // 213 = 2, 1, 3, 21, 13, 
+        //    int m = w.NumDecodings2(s);
+        //    Console.WriteLine("String : " + s);
+        //    Console.WriteLine("Decode Ways: " + m);
+        //    Console.ReadKey();
+        //}
 
         public int NumDecodings(string s)
         {

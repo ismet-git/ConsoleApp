@@ -58,8 +58,10 @@
     <Compile Include="Heap3.cs" />
     <Compile Include="HeapHackerRankEditorial.cs" />
     <Compile Include="HeapMin.cs" />
+    <Compile Include="HouseRobber.cs" />
     <Compile Include="LabelPartition.cs" />
     <Compile Include="LinkedLists.cs" />
+    <Compile Include="MeetingRooms2.cs" />
     <Compile Include="MiniHeap.cs" />
     <Compile Include="NodeChains.cs" />
     <Compile Include="AA_Program.cs" />
