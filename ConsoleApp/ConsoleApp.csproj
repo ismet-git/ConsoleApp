@@ -50,6 +50,7 @@
     <Compile Include="BalancedStringsSplits.cs" />
     <Compile Include="BinaryTreeLevelAverage.cs" />
     <Compile Include="BinaryTreeRightSideView.cs" />
+    <Compile Include="BinaryTreeTraversal.cs" />
     <Compile Include="BirthDeath.cs" />
     <Compile Include="ClimbingStairs.cs" />
     <Compile Include="Code.cs" />
