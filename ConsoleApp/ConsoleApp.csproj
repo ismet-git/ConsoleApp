@@ -45,9 +45,13 @@
   <ItemGroup>
     <Compile Include="AlienDictionary.cs" />
     <Compile Include="Anagram.cs" />
+    <Compile Include="ArrayKthLargestElement.cs" />
     <Compile Include="ArrayRotation.cs" />
+    <Compile Include="BalancedStringsSplits.cs" />
     <Compile Include="BinaryTreeLevelAverage.cs" />
+    <Compile Include="BinaryTreeRightSideView.cs" />
     <Compile Include="BirthDeath.cs" />
+    <Compile Include="ClimbingStairs.cs" />
     <Compile Include="Code.cs" />
     <Compile Include="Code2.cs" />
     <Compile Include="Code2z.cs" />

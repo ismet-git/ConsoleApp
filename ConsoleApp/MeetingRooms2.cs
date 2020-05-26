@@ -8,27 +8,27 @@ namespace ConsoleApp
 {
     class MeetingRooms2
     {
-        static void Main(string[] args)
-        {
-            // Given [[0, 30],[5, 10],[15, 20]],
-            // return 2.
+        //static void Main(string[] args)
+        //{
+        //    // Given [[0, 30],[5, 10],[15, 20]],
+        //    // return 2.
 
-            MeetingRooms2 r = new MeetingRooms2();
+        //    MeetingRooms2 r = new MeetingRooms2();
 
-            Interval[] time = new Interval[]
-            {
-                new Interval(0, 30),
-                new Interval(5, 10),
-                new Interval(15, 20)
-            };
+        //    Interval[] time = new Interval[]
+        //    {
+        //        new Interval(0, 30),
+        //        new Interval(5, 10),
+        //        new Interval(15, 20)
+        //    };
 
-            int mmr = r.MinMeetingRooms2(time);
+        //    int mmr = r.MinMeetingRooms2(time);
 
-            Console.Write("Time intervals: ");
-            time.ToList().ForEach(m => Console.Write(m.start + "-" + m.end + ", "));
-            Console.WriteLine("\nMinMeetingRooms: " + mmr);
-            Console.ReadKey();
-        }
+        //    Console.Write("Time intervals: ");
+        //    time.ToList().ForEach(m => Console.Write(m.start + "-" + m.end + ", "));
+        //    Console.WriteLine("\nMinMeetingRooms: " + mmr);
+        //    Console.ReadKey();
+        //}
 
 
         /** Definition for an interval. */
